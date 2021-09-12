@@ -15,4 +15,4 @@ def home_view(req: Request):
 
 @app.post('/')
 def home_detail_view():
-    return
+    return {'hello': 'world'}
